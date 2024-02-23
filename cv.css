@@ -1,0 +1,105 @@
+#tout{
+    margin-left: auto; 
+    margin-right: auto; 
+    padding-left: 5%; 
+    padding-right: 5%;
+    font-family: 'Salsa, Poppins';
+}
+
+#navbar{
+    display: flex;
+    list-style: none;
+    margin: auto;
+}
+
+a{padding-right: 25px;}
+#navbarNav{ margin-left: 58%;}
+
+#photo{
+    width: 100%;
+}
+.nav-link{color: black;}
+.navbar-brand{color: #e7c554;}
+h2{
+    text-align: center;
+}
+
+h4{
+color: #e7c554;
+padding-top: 2%;
+padding-bottom: 2%;
+}
+.language {
+    display: flex;
+    list-style: none;
+}
+.langue{
+    margin-right: 30px;
+    display: flex;
+}
+.image{
+    border-radius: 5%;
+    transition: transform 0.2s ease;
+}
+.image:hover {
+    transform: scale(1.1);
+}
+.album{
+    width: 30%;
+    height: auto;
+    padding: 3%;
+    background-color: white;
+    text-align: center;
+    border-radius: 3%;
+    margin: 2%;
+}
+#projet{
+    display: flex;
+}
+
+#gprojet{
+    background-color: #e7c554;
+    text-align: center;
+    padding: 3%;
+}
+.row{
+    width: 600px;
+    margin-bottom: 20px;
+}
+.col{
+    width: 250px;
+}
+button{width: 550px;
+height: 30px;
+background-color: #e7c554;
+border: none;
+transform: translateX(7px);}
+#prot{
+    font-size: 19px;
+    margin-right: 50px;
+}
+#propos{
+    display: flex;
+}
+textarea{
+    border-color: rgb(236, 232, 232);
+}
+#con{
+    display: flex;
+}
+#nav{
+    text-align: top;
+}
+
+@media all and (max-width: 1240px){
+    .album{
+        width: 20%;
+        height: auto;
+        padding: 3%;
+        margin: 2%;
+    }
+    .image{
+       text-align: center;
+       width: 20%;
+    }
+}
