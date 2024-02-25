@@ -3,7 +3,7 @@
     margin-right: auto; 
     padding-left: 5%; 
     padding-right: 5%;
-    font-family: 'Salsa, Poppins';
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #navbar{
@@ -13,7 +13,7 @@
 }
 
 a{padding-right: 25px;}
-#navbarNav{ margin-left: 58%;}
+#navbarNav{ margin-left: 52%;}
 
 #photo{
     width: 100%;
@@ -28,14 +28,6 @@ h4{
 color: #e7c554;
 padding-top: 2%;
 padding-bottom: 2%;
-}
-.language {
-    display: flex;
-    list-style: none;
-}
-.langue{
-    margin-right: 30px;
-    display: flex;
 }
 .image{
     border-radius: 5%;
@@ -72,8 +64,7 @@ padding-bottom: 2%;
 button{width: 550px;
 height: 30px;
 background-color: #e7c554;
-border: none;
-transform: translateX(7px);}
+border: none;}
 #prot{
     font-size: 19px;
     margin-right: 50px;
@@ -87,10 +78,6 @@ textarea{
 #con{
     display: flex;
 }
-#nav{
-    text-align: top;
-}
-
 @media all and (max-width: 1240px){
     .album{
         width: 20%;
@@ -100,6 +87,69 @@ textarea{
     }
     .image{
        text-align: center;
-       width: 20%;
+       width: 90%;
+       height: 90%;
+    }
+    #navbarNav{ margin-left: 40%;}
+}
+@media all and (max-width: 870px){
+#con {
+display: block;
+}
+#pff{margin-top: 5%;}
+}
+
+@media all and (max-width: 630px){
+    .row{
+        width: 450px;
+        margin-bottom: 20px;
+    }
+    .col{
+        width: 150px;
+    }
+    button{
+        width: 350px;
+        height: 30px;
+        background-color: #e7c554;
+        border: none;
+    }
+    textarea{
+       width: 85%;
+        
+    }
+    #projet{
+        display: block;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        
+    }
+    .album{
+        width: 50%;
+        height: auto;
+        margin-left: 25%;
+    }
+    .image{
+       justify-content: center;
+        justify-items: center;
+        text-align: center;
+    }
+   
+}
+@media all and (max-width: 570px){
+   #propos {
+        display: block;
+    }
+}
+@media all and (max-width: 470px){
+    .col{
+        margin-right: 75%;
+        margin-bottom: 3%;
+    }
+    button{
+        width: 150px;
+    }
+    textarea{
+        width: 70%;
     }
 }
